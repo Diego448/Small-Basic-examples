@@ -1,0 +1,7 @@
+start:
+TextWindow.WriteLine("Number1: ")
+number1 = TextWindow.ReadNumber()
+TextWindow.WriteLine("Number2: ")
+number2 = TextWindow.ReadNumber()
+TextWindow.WriteLine("=" + (number1 + number2))
+Goto start

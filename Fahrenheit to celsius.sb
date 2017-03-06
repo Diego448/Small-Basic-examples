@@ -1,0 +1,4 @@
+TextWindow.Write("Farenheit degrees: ")
+farh = TextWindow.ReadNumber()
+celsius = 5 * (farh - 32) / 9
+TextWindow.WriteLine("Celsius: " + celsius)
